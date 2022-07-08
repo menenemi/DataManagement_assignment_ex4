@@ -1,12 +1,15 @@
 import random
 import time
 
+user = input("Who are you? \n> ")
+print(f'Hello, {user}!', end="\n\n")
+
 print("Tossing a coin...")
 time.sleep(1)
 headcount = 0
 tailcount = 0
 
-for i in range(0,3):
+for i in range(1,4):
     n = random.randint(0, 1)
     if n == 0:
         print(f'Round {i}: Heads')
