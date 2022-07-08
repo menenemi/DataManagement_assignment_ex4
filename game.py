@@ -21,6 +21,6 @@ for i in range(1,4):
 
 print(f'Heads: {headcount}, Tails: {tailcount}')
 if headcount > tailcount:
-    print('You won!')
+    print(f'{user} won!')
 else:
-    print('You lost.')
+    print(f'{user} lost.')
