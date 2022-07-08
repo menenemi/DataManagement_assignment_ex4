@@ -17,3 +17,7 @@ for i in range(0,3):
     time.sleep(1)
 
 print(f'Heads: {headcount}, Tails: {tailcount}')
+if headcount > tailcount:
+    print('You won!')
+else:
+    print('You lost.')
